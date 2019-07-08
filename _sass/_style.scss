@@ -1265,6 +1265,18 @@ a {
   width: 100%;
 }
 
+.logoh img {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+.logoh a {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+
 .wrapper {
   padding: 0 20px;
 }
