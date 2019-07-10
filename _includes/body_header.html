@@ -9,8 +9,10 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <span class="icon-bar"><img src="/static/assets/img/favicon.ico" alt="logo" ></span>
-                <a class="navbar-brand" href="{{ "/" | absolute_url }}">{{ site.title }}</a>
+                <a href="{{ "/" | absolute_url }}" class="navbar-left"><img src="/static/assets/img/favicon.ico" alt="logo"></a>
+                <a class="navbar-brand" href="{{ "/" | absolute_url }}">
+                    {{ site.title }}
+                </a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
